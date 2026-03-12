@@ -1,0 +1,29 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods (if applicable)
+Pods/
+*.xcworkspace
+
+# Carthage (if applicable)
+Carthage/Build/
+
+# Fastlane (if applicable)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+.DS_Store

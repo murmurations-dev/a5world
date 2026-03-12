@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F80D1312F5E10D0001B5E38 /* EventLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1302F5E10D0001B5E38 /* EventLogView.swift */; };
+		8F80D1332F5E1128001B5E38 /* EventLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1322F5E1128001B5E38 /* EventLog.swift */; };
+		8F80D13C2F5E12CA001B5E38 /* CalculatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D13B2F5E12CA001B5E38 /* CalculatorEvent.swift */; };
+		8F80D13E2F5E12E1001B5E38 /* ControlPanelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D13D2F5E12E1001B5E38 /* ControlPanelEvent.swift */; };
+		8F80D1402F5E12FF001B5E38 /* NotepadEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D13F2F5E12FF001B5E38 /* NotepadEvent.swift */; };
+		8F80D1422F5E1327001B5E38 /* CalculatorAccessoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1412F5E1327001B5E38 /* CalculatorAccessoryState.swift */; };
+		8F80D1442F5E1348001B5E38 /* ControlPanelAccessoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1432F5E1348001B5E38 /* ControlPanelAccessoryState.swift */; };
+		8F80D1462F5E137D001B5E38 /* NotepadAccessoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1452F5E137D001B5E38 /* NotepadAccessoryState.swift */; };
+		8F80D1482F5E13A9001B5E38 /* RunCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1472F5E13A9001B5E38 /* RunCalculator.swift */; };
+		8F80D14A2F5E13F8001B5E38 /* RunControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1492F5E13F8001B5E38 /* RunControlPanel.swift */; };
+		8F80D14C2F5E1434001B5E38 /* RunNotepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D14B2F5E1434001B5E38 /* RunNotepad.swift */; };
+		8F80D14E2F5E145E001B5E38 /* CalculatorAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D14D2F5E145E001B5E38 /* CalculatorAccessoryView.swift */; };
+		8F80D1502F5E1490001B5E38 /* ControlPanelAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D14F2F5E1490001B5E38 /* ControlPanelAccessoryView.swift */; };
+		8F80D1522F5E14C4001B5E38 /* NotepadAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F80D1512F5E14C4001B5E38 /* NotepadAccessoryView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8F80D1092F5E0989001B5E38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +44,20 @@
 		8F80D0FB2F5E0987001B5E38 /* A5World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A5World.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F80D1082F5E0989001B5E38 /* A5WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A5WorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F80D1122F5E0989001B5E38 /* A5WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A5WorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F80D1302F5E10D0001B5E38 /* EventLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogView.swift; sourceTree = "<group>"; };
+		8F80D1322F5E1128001B5E38 /* EventLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLog.swift; sourceTree = "<group>"; };
+		8F80D13B2F5E12CA001B5E38 /* CalculatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEvent.swift; sourceTree = "<group>"; };
+		8F80D13D2F5E12E1001B5E38 /* ControlPanelEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelEvent.swift; sourceTree = "<group>"; };
+		8F80D13F2F5E12FF001B5E38 /* NotepadEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadEvent.swift; sourceTree = "<group>"; };
+		8F80D1412F5E1327001B5E38 /* CalculatorAccessoryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAccessoryState.swift; sourceTree = "<group>"; };
+		8F80D1432F5E1348001B5E38 /* ControlPanelAccessoryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelAccessoryState.swift; sourceTree = "<group>"; };
+		8F80D1452F5E137D001B5E38 /* NotepadAccessoryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadAccessoryState.swift; sourceTree = "<group>"; };
+		8F80D1472F5E13A9001B5E38 /* RunCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCalculator.swift; sourceTree = "<group>"; };
+		8F80D1492F5E13F8001B5E38 /* RunControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunControlPanel.swift; sourceTree = "<group>"; };
+		8F80D14B2F5E1434001B5E38 /* RunNotepad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunNotepad.swift; sourceTree = "<group>"; };
+		8F80D14D2F5E145E001B5E38 /* CalculatorAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAccessoryView.swift; sourceTree = "<group>"; };
+		8F80D14F2F5E1490001B5E38 /* ControlPanelAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelAccessoryView.swift; sourceTree = "<group>"; };
+		8F80D1512F5E14C4001B5E38 /* NotepadAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadAccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +106,10 @@
 		8F80D0F22F5E0987001B5E38 = {
 			isa = PBXGroup;
 			children = (
+				8F80D1382F5E1261001B5E38 /* Calculator */,
+				8F80D1392F5E1289001B5E38 /* ControlPanel */,
+				8F80D13A2F5E129B001B5E38 /* Notepad */,
+				8F80D12F2F5E10A9001B5E38 /* EventLog */,
 				8F80D0FD2F5E0987001B5E38 /* A5World */,
 				8F80D10B2F5E0989001B5E38 /* A5WorldTests */,
 				8F80D1152F5E0989001B5E38 /* A5WorldUITests */,
@@ -90,6 +125,48 @@
 				8F80D1122F5E0989001B5E38 /* A5WorldUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F80D12F2F5E10A9001B5E38 /* EventLog */ = {
+			isa = PBXGroup;
+			children = (
+				8F80D1302F5E10D0001B5E38 /* EventLogView.swift */,
+				8F80D1322F5E1128001B5E38 /* EventLog.swift */,
+			);
+			path = EventLog;
+			sourceTree = "<group>";
+		};
+		8F80D1382F5E1261001B5E38 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8F80D14D2F5E145E001B5E38 /* CalculatorAccessoryView.swift */,
+				8F80D13B2F5E12CA001B5E38 /* CalculatorEvent.swift */,
+				8F80D1412F5E1327001B5E38 /* CalculatorAccessoryState.swift */,
+				8F80D1472F5E13A9001B5E38 /* RunCalculator.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		8F80D1392F5E1289001B5E38 /* ControlPanel */ = {
+			isa = PBXGroup;
+			children = (
+				8F80D14F2F5E1490001B5E38 /* ControlPanelAccessoryView.swift */,
+				8F80D13D2F5E12E1001B5E38 /* ControlPanelEvent.swift */,
+				8F80D1432F5E1348001B5E38 /* ControlPanelAccessoryState.swift */,
+				8F80D1492F5E13F8001B5E38 /* RunControlPanel.swift */,
+			);
+			path = ControlPanel;
+			sourceTree = "<group>";
+		};
+		8F80D13A2F5E129B001B5E38 /* Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				8F80D1512F5E14C4001B5E38 /* NotepadAccessoryView.swift */,
+				8F80D13F2F5E12FF001B5E38 /* NotepadEvent.swift */,
+				8F80D1452F5E137D001B5E38 /* NotepadAccessoryState.swift */,
+				8F80D14B2F5E1434001B5E38 /* RunNotepad.swift */,
+			);
+			path = Notepad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +313,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F80D14E2F5E145E001B5E38 /* CalculatorAccessoryView.swift in Sources */,
+				8F80D1442F5E1348001B5E38 /* ControlPanelAccessoryState.swift in Sources */,
+				8F80D1402F5E12FF001B5E38 /* NotepadEvent.swift in Sources */,
+				8F80D14C2F5E1434001B5E38 /* RunNotepad.swift in Sources */,
+				8F80D1462F5E137D001B5E38 /* NotepadAccessoryState.swift in Sources */,
+				8F80D1482F5E13A9001B5E38 /* RunCalculator.swift in Sources */,
+				8F80D1312F5E10D0001B5E38 /* EventLogView.swift in Sources */,
+				8F80D1502F5E1490001B5E38 /* ControlPanelAccessoryView.swift in Sources */,
+				8F80D13E2F5E12E1001B5E38 /* ControlPanelEvent.swift in Sources */,
+				8F80D13C2F5E12CA001B5E38 /* CalculatorEvent.swift in Sources */,
+				8F80D1332F5E1128001B5E38 /* EventLog.swift in Sources */,
+				8F80D1522F5E14C4001B5E38 /* NotepadAccessoryView.swift in Sources */,
+				8F80D14A2F5E13F8001B5E38 /* RunControlPanel.swift in Sources */,
+				8F80D1422F5E1327001B5E38 /* CalculatorAccessoryState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

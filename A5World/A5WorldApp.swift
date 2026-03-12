@@ -11,7 +11,7 @@ import SwiftUI
 struct A5WorldApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HistoricalDeskAccessoriesView()
         }
     }
 }
